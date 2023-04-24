@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header .img {
+.header__img {
   width: 100%;
 }
 
-.header .more-info {
+.header__link {
   font-family: "fantasy", cursive;
 }
 
@@ -34,13 +34,14 @@
   margin: 0 auto 0;
 }
 
-.task {
+.task,
+.add__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add__wrapper {
   display: flex;
 }
 
@@ -75,7 +76,7 @@
 
 /* Heading */
 .title,
-.label[for="new-task"] {
+.add__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,7 +104,7 @@
 }
 
 /* New Task */
-.label[for="new-task"] {
+.add__title {
   display: block;
   margin: 0 0 20px;
 }
